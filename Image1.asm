@@ -1,6 +1,6 @@
 ; =====================================================================
 ; COSC 65A Final Project - Image 1 (DASH2)
-; Group Name: TeamAlpha
+; Group Name: archiTECH
 ; Lead Programmer: Adrian G. Mangampat
 ; Description: Sets VGA Mode 13h (320x200, 256 colors), loads a custom 
 ;              palette from 'dash2.raw', and reads pixel data directly

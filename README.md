@@ -6,19 +6,19 @@ Built for COSC 65A.
 
 ## What's in here
 
-- `teamimg1.asm` — loads and displays `dash2.raw`
-- `teamimg2.asm` — loads and displays `dismissal.raw`
+- `Image1.asm` — loads and displays `dash2.raw`
+- `Image2.asm` — loads and displays `dismissal.raw`
 - `tasm.exe` / `tlink.exe` — Turbo Assembler and linker
 - `DPMI16BI.OVL` / `DPMI32VM.OVL` / `RTM.EXE` — DPMI runtime files
 
 ## How to build
 
 ```bat
-tasm teamimg1.asm
-tlink teamimg1.obj
+tasm Image1.asm
+tlink Image1.obj
 ```
 
-Same for `teamimg2`.
+Same for `Image2`.
 
 ## How to run
 
