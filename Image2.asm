@@ -12,14 +12,14 @@
 
 .data
     ; Filename must be null-terminated for DOS function 3Dh
-    filename    db 'dismissal.raw', 0
+    filename    db 'dismiss.raw', 0
     file_handle dw ?
     
     ; Buffer to temporarily hold the 256-color palette (256 colors * 3 RGB = 768 bytes)
     palette_buf db 768 dup(0)
     
     ; Error and UI messages
-    error_msg   db 'Error: Cannot open dismissal.raw. Make sure it is in the same directory.', 13, 10, '$'
+    error_msg   db 'Error: Cannot open dismiss.raw. Make sure it is in the same directory.', 13, 10, '$'
     loading_msg db 'Loading Dismissal VGA Canvas...', 13, 10, '$'
 
 .code
